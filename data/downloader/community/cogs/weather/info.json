@@ -1,0 +1,6 @@
+{
+    "AUTHOR" : "rfilkins1992, Dex & Will",
+    "DESCRIPTION" : "Returns the temp,forcast, nextday and nextnight information in a given location.\nRequires API key obtainable from www.wunderground.com/weather/api/",
+    "DISABLED" : false,
+    "NAME" : "Weather"
+}

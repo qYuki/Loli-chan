@@ -1,0 +1,100 @@
+{
+    "community" : {
+        "dota" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/community\\cogs\\dota\\dota.py",
+            "folder" : "data/downloader/community\\cogs\\dota"
+        },
+        "fetch" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/community\\cogs\\fetch\\fetch.py",
+            "folder" : "data/downloader/community\\cogs\\fetch"
+        },
+        "fishinsult" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/community\\cogs\\fishinsult\\fishinsult.py",
+            "folder" : "data/downloader/community\\cogs\\fishinsult"
+        },
+        "fourinarow" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/community\\cogs\\fourinarow\\fourinarow.py",
+            "folder" : "data/downloader/community\\cogs\\fourinarow"
+        },
+        "google" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/community\\cogs\\google\\google.py",
+            "folder" : "data/downloader/community\\cogs\\google"
+        },
+        "hearthstone" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/community\\cogs\\hearthstone\\hearthstone.py",
+            "folder" : "data/downloader/community\\cogs\\hearthstone"
+        },
+        "insult" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/community\\cogs\\insult\\insult.py",
+            "folder" : "data/downloader/community\\cogs\\insult"
+        },
+        "lenny" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/community\\cogs\\lenny\\lenny.py",
+            "folder" : "data/downloader/community\\cogs\\lenny"
+        },
+        "noflippedtables" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/community\\cogs\\noflippedtables\\noflippedtables.py",
+            "folder" : "data/downloader/community\\cogs\\noflippedtables"
+        },
+        "omaps" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/community\\cogs\\omaps\\omaps.py",
+            "folder" : "data/downloader/community\\cogs\\omaps"
+        },
+        "penis" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/community\\cogs\\penis\\penis.py",
+            "folder" : "data/downloader/community\\cogs\\penis"
+        },
+        "punish" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/community\\cogs\\punish\\punish.py",
+            "folder" : "data/downloader/community\\cogs\\punish"
+        },
+        "remindme" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/community\\cogs\\remindme\\remindme.py",
+            "folder" : "data/downloader/community\\cogs\\remindme"
+        },
+        "rev" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/community\\cogs\\rev\\rev.py",
+            "folder" : "data/downloader/community\\cogs\\rev"
+        },
+        "rndstatus" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/community\\cogs\\rndstatus\\rndstatus.py",
+            "folder" : "data/downloader/community\\cogs\\rndstatus"
+        },
+        "slap" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/community\\cogs\\slap\\slap.py",
+            "folder" : "data/downloader/community\\cogs\\slap"
+        },
+        "url" : "https://github.com/Twentysix26/Red-Cogs.git",
+        "weather" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/community\\cogs\\weather\\weather.py",
+            "folder" : "data/downloader/community\\cogs\\weather"
+        },
+        "welcome" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/community\\cogs\\welcome\\welcome.py",
+            "folder" : "data/downloader/community\\cogs\\welcome"
+        },
+        "wikipedia" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/community\\cogs\\wikipedia\\wikipedia.py",
+            "folder" : "data/downloader/community\\cogs\\wikipedia"
+        }
+    }
+}

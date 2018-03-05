@@ -1,0 +1,6 @@
+{
+    "AUTHOR" : "Nikki",
+    "DESCRIPTION" : "Usage: [p]lenny",
+    "DISABLED" : false,
+    "NAME" : "Creates a random ASCII face."
+}

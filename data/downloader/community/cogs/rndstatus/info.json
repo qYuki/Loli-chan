@@ -1,0 +1,6 @@
+{
+    "AUTHOR" : "Twentysix - https://github.com/Twentysix26",
+    "DESCRIPTION" : "Switches custom statuses every X seconds.\nLimited to owner.\nSee [prefix]help RandomStatus for details.",
+    "DISABLED" : false,
+    "NAME" : "Customizable random status switcher"
+}

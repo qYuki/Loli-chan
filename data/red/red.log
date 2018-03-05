@@ -1,0 +1,110 @@
+[06/02/2018 17:24] ERROR red load_cogs 515: imgurpython is not installed. Do 'pip3 install imgurpython' to use this cog.
+Traceback (most recent call last):
+  File "C:\Users\KeNNy-AMV\Desktop\lolibot-discord-master\cogs\image.py", line 108, in setup
+    from imgurpython import ImgurClient
+ModuleNotFoundError: No module named 'imgurpython'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "red.py", line 512, in load_cogs
+    owner_cog._load_cog(extension)
+  File "C:\Users\KeNNy-AMV\Desktop\lolibot-discord-master\cogs\owner.py", line 753, in _load_cog
+    self.bot.load_extension(mod_obj.__name__)
+  File "C:\Users\KeNNy-AMV\AppData\Local\Programs\Python\Python36-32\lib\site-packages\discord\ext\commands\bot.py", line 738, in load_extension
+    lib.setup(self)
+  File "C:\Users\KeNNy-AMV\Desktop\lolibot-discord-master\cogs\image.py", line 110, in setup
+    raise ModuleNotFound("imgurpython is not installed. Do 'pip3 install imgurpython' to use this cog.")
+cogs.image.ModuleNotFound: imgurpython is not installed. Do 'pip3 install imgurpython' to use this cog.
+[06/02/2018 17:44] ERROR audio _join_voice_channel 634: 
+Traceback (most recent call last):
+  File "C:\Users\KeNNy-AMV\Desktop\lolibot-discord-master\cogs\audio.py", line 632, in _join_voice_channel
+    await self.bot.join_voice_channel(channel)
+  File "C:\Users\KeNNy-AMV\AppData\Local\Programs\Python\Python36-32\lib\site-packages\discord\client.py", line 3198, in join_voice_channel
+    raise e
+  File "C:\Users\KeNNy-AMV\AppData\Local\Programs\Python\Python36-32\lib\site-packages\discord\client.py", line 3194, in join_voice_channel
+    session_id_data = yield from asyncio.wait_for(session_id_future, timeout=10.0, loop=self.loop)
+  File "C:\Users\KeNNy-AMV\AppData\Local\Programs\Python\Python36-32\lib\asyncio\tasks.py", line 362, in wait_for
+    raise futures.TimeoutError()
+concurrent.futures._base.TimeoutError
+[06/02/2018 17:44] ERROR red on_command_error 320: Exception in command 'play'
+Traceback (most recent call last):
+  File "C:\Users\KeNNy-AMV\Desktop\lolibot-discord-master\cogs\audio.py", line 632, in _join_voice_channel
+    await self.bot.join_voice_channel(channel)
+  File "C:\Users\KeNNy-AMV\AppData\Local\Programs\Python\Python36-32\lib\site-packages\discord\client.py", line 3198, in join_voice_channel
+    raise e
+  File "C:\Users\KeNNy-AMV\AppData\Local\Programs\Python\Python36-32\lib\site-packages\discord\client.py", line 3194, in join_voice_channel
+    session_id_data = yield from asyncio.wait_for(session_id_future, timeout=10.0, loop=self.loop)
+  File "C:\Users\KeNNy-AMV\AppData\Local\Programs\Python\Python36-32\lib\asyncio\tasks.py", line 362, in wait_for
+    raise futures.TimeoutError()
+concurrent.futures._base.TimeoutError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\KeNNy-AMV\AppData\Local\Programs\Python\Python36-32\lib\site-packages\discord\ext\commands\core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "C:\Users\KeNNy-AMV\Desktop\lolibot-discord-master\cogs\audio.py", line 1335, in play
+    await self._join_voice_channel(voice_channel)
+  File "C:\Users\KeNNy-AMV\Desktop\lolibot-discord-master\cogs\audio.py", line 635, in _join_voice_channel
+    raise ConnectTimeout("We timed out connecting to a voice channel")
+cogs.audio.ConnectTimeout: We timed out connecting to a voice channel
+[06/02/2018 17:45] ERROR audio _join_voice_channel 634: 
+Traceback (most recent call last):
+  File "C:\Users\KeNNy-AMV\Desktop\lolibot-discord-master\cogs\audio.py", line 632, in _join_voice_channel
+    await self.bot.join_voice_channel(channel)
+  File "C:\Users\KeNNy-AMV\AppData\Local\Programs\Python\Python36-32\lib\site-packages\discord\client.py", line 3198, in join_voice_channel
+    raise e
+  File "C:\Users\KeNNy-AMV\AppData\Local\Programs\Python\Python36-32\lib\site-packages\discord\client.py", line 3194, in join_voice_channel
+    session_id_data = yield from asyncio.wait_for(session_id_future, timeout=10.0, loop=self.loop)
+  File "C:\Users\KeNNy-AMV\AppData\Local\Programs\Python\Python36-32\lib\asyncio\tasks.py", line 362, in wait_for
+    raise futures.TimeoutError()
+concurrent.futures._base.TimeoutError
+[06/02/2018 17:45] ERROR red on_command_error 320: Exception in command 'play'
+Traceback (most recent call last):
+  File "C:\Users\KeNNy-AMV\Desktop\lolibot-discord-master\cogs\audio.py", line 632, in _join_voice_channel
+    await self.bot.join_voice_channel(channel)
+  File "C:\Users\KeNNy-AMV\AppData\Local\Programs\Python\Python36-32\lib\site-packages\discord\client.py", line 3198, in join_voice_channel
+    raise e
+  File "C:\Users\KeNNy-AMV\AppData\Local\Programs\Python\Python36-32\lib\site-packages\discord\client.py", line 3194, in join_voice_channel
+    session_id_data = yield from asyncio.wait_for(session_id_future, timeout=10.0, loop=self.loop)
+  File "C:\Users\KeNNy-AMV\AppData\Local\Programs\Python\Python36-32\lib\asyncio\tasks.py", line 362, in wait_for
+    raise futures.TimeoutError()
+concurrent.futures._base.TimeoutError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\KeNNy-AMV\AppData\Local\Programs\Python\Python36-32\lib\site-packages\discord\ext\commands\core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "C:\Users\KeNNy-AMV\Desktop\lolibot-discord-master\cogs\audio.py", line 1335, in play
+    await self._join_voice_channel(voice_channel)
+  File "C:\Users\KeNNy-AMV\Desktop\lolibot-discord-master\cogs\audio.py", line 635, in _join_voice_channel
+    raise ConnectTimeout("We timed out connecting to a voice channel")
+cogs.audio.ConnectTimeout: We timed out connecting to a voice channel
+[06/02/2018 17:56] INFO economy transfer 352: －ｋｙｏｗ－(300664068786618368) transferred 250100 credits to Joel.BOMB(386898379663212544)
+[06/02/2018 17:59] ERROR red load_cogs 515: [WinError 193] %1 is not a valid Win32 application
+Traceback (most recent call last):
+  File "C:\Users\KeNNy-AMV\Desktop\lolibot-discord-master\red.py", line 512, in load_cogs
+    owner_cog._load_cog(extension)
+  File "C:\Users\KeNNy-AMV\Desktop\lolibot-discord-master\cogs\owner.py", line 753, in _load_cog
+    self.bot.load_extension(mod_obj.__name__)
+  File "C:\Users\KeNNy-AMV\AppData\Local\Programs\Python\Python36-32\lib\site-packages\discord\ext\commands\bot.py", line 738, in load_extension
+    lib.setup(self)
+  File "C:\Users\KeNNy-AMV\Desktop\lolibot-discord-master\cogs\audio.py", line 2185, in setup
+    player = verify_ffmpeg_avconv()
+  File "C:\Users\KeNNy-AMV\Desktop\lolibot-discord-master\cogs\audio.py", line 2157, in verify_ffmpeg_avconv
+    subprocess.call(["ffmpeg", "-version"], stdout=subprocess.DEVNULL)
+  File "C:\Users\KeNNy-AMV\AppData\Local\Programs\Python\Python36-32\lib\subprocess.py", line 267, in call
+    with Popen(*popenargs, **kwargs) as p:
+  File "C:\Users\KeNNy-AMV\AppData\Local\Programs\Python\Python36-32\lib\subprocess.py", line 709, in __init__
+    restore_signals, start_new_session)
+  File "C:\Users\KeNNy-AMV\AppData\Local\Programs\Python\Python36-32\lib\subprocess.py", line 997, in _execute_child
+    startupinfo)
+OSError: [WinError 193] %1 is not a valid Win32 application
+[06/02/2018 18:45] INFO economy transfer 352: －ｋｙｏｗ－(300664068786618368) transferred 5000 credits to -(AGARES)- VALI(252805541624152067)
+[06/02/2018 18:45] INFO economy transfer 352: －ｋｙｏｗ－(300664068786618368) transferred 5000 credits to Joel.BOMB(386898379663212544)
+[06/02/2018 18:46] INFO economy transfer 352: －ｋｙｏｗ－(300664068786618368) transferred 50000 credits to -(AGARES)- VALI(252805541624152067)
+[06/02/2018 18:46] INFO economy transfer 352: －ｋｙｏｗ－(300664068786618368) transferred 50000 credits to Joel.BOMB(386898379663212544)
+[06/02/2018 18:46] INFO economy transfer 352: －ｋｙｏｗ－(300664068786618368) transferred 100000 credits to -(AGARES)- VALI(252805541624152067)
+[06/02/2018 18:47] INFO economy transfer 352: －ｋｙｏｗ－(300664068786618368) transferred 100000 credits to Joel.BOMB(386898379663212544)

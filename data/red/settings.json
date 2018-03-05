@@ -1,0 +1,14 @@
+{
+    "EMAIL" : null,
+    "OWNER" : "300664068786618368",
+    "PASSWORD" : null,
+    "PREFIXES" : [
+        "."
+    ],
+    "TOKEN" : "NDEwNDU0NjU3OTUzOTU1ODQw.DVtZWA._NAuPEOXN9VQhF1G_K7wSilD6Kk",
+    "default" : {
+        "ADMIN_ROLE" : "@Senpai LORD",
+        "MOD_ROLE" : "@Fondator",
+        "PREFIXES" : []
+    }
+}

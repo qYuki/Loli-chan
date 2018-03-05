@@ -1,0 +1,18 @@
+{
+    "393155718741491713" : {
+        "PAYDAY_CREDITS" : 120,
+        "PAYDAY_TIME" : 300,
+        "REGISTER_CREDITS" : 0,
+        "SLOT_MAX" : 500,
+        "SLOT_MIN" : 5,
+        "SLOT_TIME" : 0
+    },
+    "400295615835275265" : {
+        "PAYDAY_CREDITS" : 120,
+        "PAYDAY_TIME" : 300,
+        "REGISTER_CREDITS" : 0,
+        "SLOT_MAX" : 500,
+        "SLOT_MIN" : 5,
+        "SLOT_TIME" : 0
+    }
+}
